@@ -1,7 +1,7 @@
 # AutomaTones - A _FA Music Generator
 ## Usage for CS3800:
 <ul>
-  <li><code>DeterministicFiniteAutomaton</code>($Q, \Sigma, \delta, q_0, F$) to create a DFA</li>
+  <li><code>DeterministicFiniteAutomaton</code>( $Q, \Sigma, \delta, q_0, F$ ) to create a DFA</li>
   <li>where 
     <ul> 
       <li>$Q$ is the set of accept states, as a <code>[FAState]</code></li>
