@@ -11,4 +11,10 @@
       <li>$F$ is the set of accept states, as a <code>[FAState]</code></li>
     </ul>
   </li>
+  <li> Let <code>d</code> be an instance of a <code>DeterminsticFiniteAutomaton</code>. Then
+    <ul>
+      <li><code>d.compute(w)</code> computes the state $q \in Q$ that the machine <code>d</code> returns on input <code>string</code> $w$ </li>
+      <li><code>d.accepts(w)</code> returns <code>true</code> if the machine <code>d</code> accepts the input <code>string</code> $w$. In other words, is <code>d.compute(w)</code> $\in F$? </li>
+    </ul>
+  </li>
 </ul>
