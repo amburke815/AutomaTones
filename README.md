@@ -7,7 +7,7 @@
       <li>$Q$ is the set of states, as a <code>[FAState]</code></li>
       <li>$\Sigma$ is the input alphabet, as a <code>[string]</code></li>
       <li>$\delta$ is the transition function, as a <code>Map&lt;[FAState, string], FAState&gt;</code> to mirror the $Q \times \Sigma \rightarrow Q$ signature</li>
-      <li>$q_0$ is the initial state, as a <codE>[FAState]</code></li>
+      <li>$q_0$ is the initial state, as a <code>FAState</code></li>
       <li>$F$ is the set of accept states, as a <code>[FAState]</code></li>
     </ul>
   </li>
