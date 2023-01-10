@@ -1,0 +1,15 @@
+{
+  "name": "automatones",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "test-at"
+  },
+  "author": "Adam Burke",
+  "license": "ISC",
+  "type": "module"
+}
